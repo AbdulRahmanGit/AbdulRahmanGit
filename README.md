@@ -5,7 +5,7 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=abdulrahmangit" alt="abdulrahmangit" /></a> </p>
 
-- 🔭 I’m currently working on [DevDose](devdose.vercel.app), [Cold-Email-generator](https://cold-emails-generator.streamlit.app/)
+- 🔭 I’m currently working on [DevDose](https://devdose.vercel.app), [Cold-Email-generator](https://cold-emails-generator.streamlit.app/)
 
 - 🌱 I’m currently learning **React, Full Stack, AI, Fine Tuning LLMs**
 
@@ -27,8 +27,8 @@
 <p align="left">
 <a href="https://codepen.io/https://codepen.io/ujtramsa-the-bold" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/ujtramsa-the-bold" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/www.linkedin.com/in/ar8786" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="www.linkedin.com/in/ar8786" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/https://www.hackerrank.com/profile/anasrahman8786" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/anasrahman8786" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/anasrahman8786/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/anasrahman8786/" height="30" width="40" /></a>
+<a href="https://www.hackerrank.com/profile/anasrahman8786" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/profile/anasrahman8786" height="30" width="40" /></a>
+<a href="https://leetcode.com/anasrahman8786/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/anasrahman8786/" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
