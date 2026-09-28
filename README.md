@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I’m Abdul Rahman</h1>
 
-<h3 align="center">AI/ML Engineer | GenAI & LLM Application Developer | Python Developer</h3>
+<h3 align="center">AI Engineer | GenAI & Agentic Systems | Python Backend</h3>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=abdulrahmangit&label=Profile%20Views&color=0e75b6&style=for-the-badge" alt="Profile Views" />
@@ -19,11 +19,45 @@
 
 ## 👨‍💻 About Me
 
-I'm a **Computer Science (AI-ML) engineer** focused on building practical software solutions around **Artificial Intelligence, Generative AI, LLMs, and intelligent automation**.
+I'm a **Computer Science (AI-ML) engineer** focused on building practical **Generative AI, agentic AI, RAG, and backend systems**.
 
-My interests sit at the intersection of **AI and software engineering**, with a focus on building LLM-powered applications, RAG systems, AI-assisted developer tools, automation workflows, and cloud-based applications.
+I enjoy going beyond model demos and working on the engineering around AI systems — **tool orchestration, structured outputs, validation, memory, APIs, evaluation, observability, and cloud deployment**.
 
-I enjoy taking ideas from experimentation to working applications using modern AI frameworks, APIs, backend technologies, and cloud platforms.
+My current focus is understanding how AI applications move from a working prototype into **reliable, testable, and deployable software systems**.
+
+---
+
+## 🔨 What I'm Building
+
+### 🌍 [Wayfarer — AI Travel Concierge](https://github.com/AbdulRahmanGit/buildwithgemini-ai-travel-agent)
+
+An agentic, multimodal travel concierge that combines **LLM reasoning, tools, persistent memory, real-world data, and dynamically generated UI**.
+
+- Built with **Google ADK + Gemini 2.5 Flash** with multi-tool orchestration.
+- Uses an **A2A-decoupled architecture** with a FastAPI proxy and agent runtime.
+- Implements cross-session personalization with **Vertex AI Memory Bank**.
+- Integrates **Firestore, Google Maps, Imagen 3, Cloud Storage, currency APIs, A2UI, Docker, and Terraform**.
+- Includes normalization logic to handle malformed or incomplete model-generated UI structures.
+
+**Learning:** agent architecture · tool design · persistent memory · structured agent outputs · A2UI · schema resilience · GCP AI infrastructure
+
+---
+
+### 🛡️ WarrantyVault — Multimodal Receipt Intelligence `WIP`
+
+Building a multimodal document-intelligence system that converts receipt images into **validated structured records while explicitly handling model uncertainty**.
+
+The goal is to move beyond basic OCR/extraction into an AI workflow with:
+
+- Gemini-based multimodal extraction and structured outputs.
+- **Pydantic contracts + deterministic business validation** around model responses.
+- Risk/ambiguity detection with **human-in-the-loop review** for uncertain cases.
+- Reproducible evaluation, failure analysis, telemetry, and prompt/model versioning.
+- API-first architecture targeting **FastAPI + GCP Cloud Run**.
+
+**Tech:** Python · Gemini · Pydantic · FastAPI · pytest · GCP · GitHub Actions
+
+**Learning:** LLM evaluation · confidence & uncertainty · human escalation · deterministic guardrails · observability · production AI workflows
 
 ---
 
@@ -31,35 +65,48 @@ I enjoy taking ideas from experimentation to working applications using modern A
 
 ### 🔎 RAG-The-Repo
 
-**Retrieval-Augmented Generation for semantic code search**
+**Retrieval-Augmented Generation for semantic code understanding**
 
-* Built a RAG-based system for searching and understanding code repositories.
-* Uses vector embeddings and semantic retrieval for contextual code discovery.
-* **Tech:** Python · LangChain · Pinecone · SentenceTransformers · Gemini API · GitHub API · Streamlit
+- Built a RAG pipeline for searching and understanding source-code repositories using semantic retrieval.
+- Uses embeddings and vector search to retrieve context before generating repository-aware answers.
+- Explored chunking, retrieval quality, contextual grounding, and codebase comprehension.
+
+**Tech:** Python · LangChain · Pinecone · SentenceTransformers · Gemini · GitHub API · Streamlit
+
+---
+
+### 📧 DevDoses
+
+**Personalized LLM-powered developer email platform**
+
+- Built a backend system that generates personalized programming content based on user preferences such as language and difficulty.
+- Designed registration, update and deletion workflows backed by PostgreSQL.
+- Automated scheduled generation and email delivery through cloud infrastructure.
+
+**Tech:** Python · FastAPI · PostgreSQL · SQLAlchemy · Gemini · Jinja2 · Google Cloud Run · Cloud Scheduler
+
+---
 
 ### 📧 Cold Email Generator
 
-**LLM-powered application for personalized job applications**
+**LLM-assisted personalized job outreach**
 
-* Generates personalized emails using job descriptions and candidate information.
-* Integrates semantic skill matching and Google authentication.
-* **Tech:** Python · Streamlit · Gemini AI · SentenceTransformers · Google OAuth 2.0 · Gmail API
+- Generates contextual emails from a candidate profile and job description.
+- Integrates semantic skill matching and Gmail-based delivery.
+- Uses Google OAuth for authenticated email workflows.
 
-### 💻 CodeCraft
+**Tech:** Python · Streamlit · Gemini · LangChain · SentenceTransformers · Gmail API · OAuth 2.0
 
-**Interactive programming and code execution platform**
+---
 
-* Learning platform supporting multiple programming languages.
-* Provides code execution and automated test-case evaluation.
-* **Tech:** Next.js · TypeScript · Tailwind CSS · Monaco Editor · FastAPI · Python · Supabase · JudgeO API
+## 🧠 Currently Learning
 
-### 🤖 Automated Email Reminder
-
-**Cloud-based AI automation system**
-
-* Uses Gemini APIs to generate and deliver programming-related content.
-* Built around scheduled cloud execution and automated deployment workflows.
-* **Tech:** Python · Gemini API · Google Cloud Run · Cloud Scheduler · GitHub Actions
+- **Agentic AI:** tool orchestration, state, memory, bounded workflows and agent protocols
+- **Reliable GenAI:** structured output, validation, retries, guardrails and human escalation
+- **LLM Evaluation:** benchmark design, failure analysis, retrieval/evaluation metrics and model comparison
+- **AI Infrastructure:** FastAPI, Docker, CI/CD, observability and production deployment
+- **Google Cloud AI:** Vertex AI, Memory Bank, Firestore, Cloud Run, Cloud Storage and Gemini
+- **AI-assisted Engineering:** Codex, Claude Code and documentation-first development workflows
 
 ---
 
@@ -68,66 +115,95 @@ I enjoy taking ideas from experimentation to working applications using modern A
 ### Languages
 
 <p>
-  <img src="https://skillicons.dev/icons?i=python,js,ts,java,sql" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,java,js,ts" />
+  </a>
 </p>
+
+`SQL`
 
 ### AI / Machine Learning
 
 <p>
-  <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=tensorflow,pytorch,sklearn" />
+  </a>
 </p>
 
-**TensorFlow · PyTorch · Scikit-Learn · Pandas · LangChain · SentenceTransformers**
+`Pandas` · `SentenceTransformers`
 
-### Generative AI
+### Generative AI & Agentic Systems
 
-**LLMs · RAG · Prompt Engineering · AI Evaluation · Gemini APIs · Claude · Vector Embeddings · Pinecone**
+`Gemini` · `Claude` · `Google ADK` · `LangChain` · `LangGraph` · `RAG` · `Agentic AI` · `A2A` · `A2UI` · `Structured Outputs` · `LLM Evaluation` · `Vector Embeddings`
 
 ### Backend & Full Stack
 
 <p>
-  <img src="https://skillicons.dev/icons?i=fastapi,django,nodejs,express,react,nextjs,streamlit" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=fastapi,django,nodejs,express,react,nextjs" />
+  </a>
 </p>
 
-### Databases
+`Streamlit`
+
+### Databases & Retrieval
 
 <p>
-  <img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=postgres,mongodb,supabase" />
+  </a>
 </p>
 
-**Pinecone · PostgreSQL · MongoDB · Supabase**
+`Firestore` · `Pinecone` · `ChromaDB`
 
-### Automation, Testing & DevOps
+### Cloud & DevOps
 
 <p>
-  <img src="https://skillicons.dev/icons?i=selenium,githubactions,jenkins,gcp,vercel" />
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=gcp,docker,terraform,githubactions,jenkins,git,vercel" />
+  </a>
 </p>
 
-**Playwright · Selenium · Postman · API Testing · GitHub Actions · Jenkins · Google Cloud Run · Google Cloud Scheduler · Vercel · Render**
+`Vertex AI` · `Google Cloud Run` · `Cloud Storage` · `Cloud Scheduler` · `Render`
+
+### Testing & Automation
+
+<p>
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=selenium,postman" />
+  </a>
+</p>
+
+`Playwright` · `pytest` · `API Testing` · `Test Automation`
 
 ---
 
 ## 📜 Certifications
 
-* **AWS Certified AI Practitioner**
-* **Claude Architect – Professional**
-* **Claude Architect – Foundations**
-* **Claude Developer – Foundations**
-* **Google Data Analytics Professional Certificate**
-* **Generative AI Hackathon**
+- **AWS Certified AI Practitioner**
+- **Claude Architect – Professional**
+- **Claude Architect – Foundations**
+- **Claude Developer – Foundations**
+- **Claude Associate – Foundations**
+- **Google Data Analytics Professional Certificate**
+- **Google Cloud Skill Badge — Build with Gemini**
+- **Google Cloud Skill Badge — Deploy an Agent with Agent Development Kit (ADK)**
+- **Google Cloud Skill Badge — Deploy a RAG Application with Vector Search in Firestore**
+- **Google Cloud Skill Badge — Prompt Design in Vertex AI**
+- **Google Cloud Skill Badge — Build Real-World AI Applications with Gemini & Imagen**
 
 ---
 
 ## 🎯 Areas of Interest
 
-* Generative AI & LLM Applications
-* Retrieval-Augmented Generation
-* AI Agents & Intelligent Automation
-* Machine Learning & Deep Learning
-* Prompt Engineering & AI Evaluation
-* AI-assisted Software Engineering
-* Developer Tools & Code Intelligence
-* Cloud-based AI Applications
+- Generative AI & LLM Systems
+- Agentic AI & Tool Orchestration
+- Retrieval-Augmented Generation
+- AI Evaluation & Reliability
+- Multimodal AI
+- AI-assisted Software Engineering
+- Backend Engineering for AI Applications
+- Cloud AI Infrastructure
 
 ---
 
@@ -160,9 +236,6 @@ I enjoy taking ideas from experimentation to working applications using modern A
   <a href="https://www.hackerrank.com/profile/anasrahman8786" target="_blank">
     <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="HackerRank" height="30" width="40"/>
   </a>
-  <a href="https://codepen.io/ujtramsa-the-bold" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="CodePen" height="30" width="40"/>
-  </a>
 </p>
 
 ### 📫 Contact
@@ -174,5 +247,5 @@ I enjoy taking ideas from experimentation to working applications using modern A
 ---
 
 <p align="center">
-  <b>Building at the intersection of AI and software engineering.</b>
+  <b>Building reliable AI systems beyond the prototype.</b>
 </p>
